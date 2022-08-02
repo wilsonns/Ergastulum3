@@ -1,0 +1,17 @@
+{
+"Items": {
+  "short_sword": "ShortSword.png",
+  "bastard_sword": "BastardSword.png",
+  "flesh": "Flesh.png"
+},
+  "Entities": {
+    "abomination": "Abomination.png",
+    "human": "Human.png",
+    "zombie": "Zombie.png",
+    "stairs": "Stairs.png"
+  },
+"Terrain": {
+  "wall": "Wall.png",
+  "floor": "Floor.png"
+}
+}

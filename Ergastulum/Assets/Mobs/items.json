@@ -1,0 +1,47 @@
+{
+  "dummy": {
+    "name": "Short Sword",
+    "itemType": "weapon",
+    "rarity": 1,
+    "sprite": 1,
+    "type": 2,
+    "description": "A small bladed weapon.",
+    "attributes": {
+      "Weight": 100,
+      "Size": 10,
+      "Attack": 10,
+      "Damage": 100
+    },
+    "inventory": 0
+
+  },
+  "flesh": {
+    "name": "Contamined Flesh",
+    "rarity": 1,
+    "itemType": "healing",
+    "sprite": 2,
+    "type": 3,
+    "description": "A piece of contamined flesh from the damned. Consuming it heals the body",
+    "attributes": {
+      "Weight": 25,
+      "Size": 8,
+      "Heal": 10
+    },
+    "inventory": 0
+  },
+  "corrupted_ankh": {
+    "name": "Corrupted Ankh",
+    "rarity": 1,
+    "itemType": "buff",
+    "sprite": 2,
+    "type": 3,
+    "description": "A corrupted neckpiece that heightens one's power when ingested",
+    "attributes": {
+      "Weight": 25,
+      "Size": 8,
+      "Strength": 10
+    },
+    "inventory": 0
+  }
+}
+

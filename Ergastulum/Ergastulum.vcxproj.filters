@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{2ae95872-0bd9-4c2c-a655-1762593124f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameStates">
+      <UniqueIdentifier>{d800b9f6-78bd-40de-83c5-ab5cf3fb645e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{b4640b1d-75af-4ff2-b679-eacb77011d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{3713e039-f712-4708-a24a-6e190bd5a50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Button">
+      <UniqueIdentifier>{c5ebc0fa-5121-4515-95fd-a13ff6bea6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Menu">
+      <UniqueIdentifier>{b5cec01f-1522-4f7c-a2a7-d1052c53b160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{01ce7e5f-3f94-4db0-9ba7-d5c2b03cc165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Character">
+      <UniqueIdentifier>{2059f51b-e021-4caa-b2ad-06945f08a59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Item">
+      <UniqueIdentifier>{5d80f50e-5076-4ee3-9672-1b6deafb867b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Character\Enemy">
+      <UniqueIdentifier>{0b5010e8-b1b5-4e6d-aa3b-aae35f241453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{cf08f3ef-2aa5-4cdf-8bcd-d169e0b4cc07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bar.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BSP.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FOV.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pathfinding.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameState.cpp">
+      <Filter>Engine\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Message.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Textbox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>GUI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CharacterMenu.cpp">
+      <Filter>GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameInterface.cpp">
+      <Filter>GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InventoryMenu.cpp">
+      <Filter>GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainMenu.cpp">
+      <Filter>GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu.cpp">
+      <Filter>GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tile.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AI.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationComponent.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventory.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stats.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineButton.cpp">
+      <Filter>GUI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character.cpp">
+      <Filter>Entity\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item.cpp">
+      <Filter>Entity\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemy.cpp">
+      <Filter>Entity\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stairs.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Bar.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BSP.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FOV.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pathfinding.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RNG.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tile.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameState.h">
+      <Filter>Engine\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Color.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Screen.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Message.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Textbox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Button.h">
+      <Filter>GUI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameInterface.h">
+      <Filter>GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CharacterMenu.h">
+      <Filter>GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InventoryMenu.h">
+      <Filter>GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainMenu.h">
+      <Filter>GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Menu.h">
+      <Filter>GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputHandler.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HelperFunctions.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AI.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AnimationComponent.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Inventory.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Stats.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hash_pair.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineButton.h">
+      <Filter>GUI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Character.h">
+      <Filter>Entity\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Item.h">
+      <Filter>Entity\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemy.h">
+      <Filter>Entity\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Stairs.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Mobs\items.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\Mobs\mobs.json">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\Graphics\Graphics.json" />
+  </ItemGroup>
+</Project>
